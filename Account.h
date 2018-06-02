@@ -188,7 +188,6 @@ void deposit_withdraw(int x, int opt) {
 	AllAcc.clear();
 	readFile();
 	int Size = AllAcc.size();
-	cout << "\n--------------------ACCOUNT REGISTRATION-------------------     \n";
 	if (x == 0)
 		return;
 	while (x <= 100) {
